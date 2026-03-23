@@ -1,0 +1,13 @@
+CREATE WAREHOUSE IF NOT EXISTS telecom_wh
+    WAREHOUSE_SIZE = 'X-SMALL'
+    AUTO_SUSPEND = 60        
+    AUTO_RESUME = TRUE;     
+
+
+CREATE DATABASE IF NOT EXISTS telecom_dw;
+
+
+CREATE SCHEMA IF NOT EXISTS telecom_dw.raw;
+CREATE SCHEMA IF NOT EXISTS telecom_dw.staging;
+CREATE SCHEMA IF NOT EXISTS telecom_dw.intermediate;
+CREATE SCHEMA IF NOT EXISTS telecom_dw.marts;
