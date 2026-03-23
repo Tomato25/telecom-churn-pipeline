@@ -10,6 +10,8 @@ have a churn rate of ~72%, putting over €28,500 of monthly
 recurring revenue at risk from that segment alone.
 
 ## Architecture
+
+![Lineage Graph](telco_dbt_lineage.png)
 Raw CSV → Snowflake (RAW schema)
        → dbt staging (clean & type cast)
        → dbt intermediate (business logic & risk scoring)
