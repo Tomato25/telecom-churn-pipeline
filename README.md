@@ -66,7 +66,8 @@ models/
    revenue at risk by tenure band
 3. **€28,500+ monthly revenue at risk** from the highest-risk 
    segment (month-to-month, 0-12 months)
-
+## Dashboard
+![Dashboard](telco_dashboard.png)
 
 ## How to Run
 1. Set up Snowflake free trial at snowflake.com
